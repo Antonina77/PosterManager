@@ -1,0 +1,20 @@
+package ru.netology.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+//@AllArgsConstructor
+public class AfishaItem {
+    private int cinemaId;
+    private String cinemaUrl;
+    private String cinemaName;
+    private String cinemaGenre;
+
+    public AfishaItem(int cinemaId, String cinemaUrl, String cinemaName, String cinemaGenre) {
+        this.cinemaId = cinemaId;
+        this.cinemaUrl = cinemaUrl;
+        this.cinemaName = cinemaName;
+        this.cinemaGenre = cinemaGenre;
+    }
+}
